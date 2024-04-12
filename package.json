@@ -1,0 +1,24 @@
+{
+  "name": "cli-chatbot",
+  "version": "1.0.0",
+  "description": "a gpt-powered chatbot which runs on commandline interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodejs-cli-chatbot"
+  },
+  "keywords": [
+    "openai",
+    "chatbot",
+    "cli"
+  ],
+  "author": "aquib hussain",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.33.0"
+  }
+}
